@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+    entrypoint: ../entrypoint.sh
+    command: capteur.csv
+    #privileged: true
+    devices:
+      - "/dev/hidraw1:/dev/hidraw1"

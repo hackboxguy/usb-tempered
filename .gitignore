@@ -1,0 +1,9 @@
+/build
+CMakeCache.txt
+CMakeFiles
+Makefile
+tempered
+hid-query
+*.so
+*.so.0
+cmake_install.cmake
